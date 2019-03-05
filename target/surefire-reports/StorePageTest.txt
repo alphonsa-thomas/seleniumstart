@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: StorePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 52.114 s <<< FAILURE! - in StorePageTest
+createAccount_Results(StorePageTest)  Time elapsed: 52.065 s  <<< ERROR!
+java.lang.NoSuchMethodError: Emirates.PageFactory.StorePage.AddressFirstName(Ljava/lang/String;)V
+	at StorePageTest.createAccount_Results(StorePageTest.java:48)
+
